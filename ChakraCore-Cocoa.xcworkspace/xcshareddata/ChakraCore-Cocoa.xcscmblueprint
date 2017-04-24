@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FE09DBDA98B0FE8B25189BA7C6F7F127BDDEC9B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "67F632D3CD46CA427A558600235E35D8E67DE6FA" : 9223372036854775807,
+    "FE09DBDA98B0FE8B25189BA7C6F7F127BDDEC9B3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C0CC1795-3B72-43FD-9021-75C5F7E62B0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "67F632D3CD46CA427A558600235E35D8E67DE6FA" : "ChakraCore-Cocoa\/ChakraCore\/",
+    "FE09DBDA98B0FE8B25189BA7C6F7F127BDDEC9B3" : "ChakraCore-Cocoa\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChakraCore-Cocoa",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChakraCore-Cocoa.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Microsoft\/ChakraCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67F632D3CD46CA427A558600235E35D8E67DE6FA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:qasim\/ChakraCore-Cocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FE09DBDA98B0FE8B25189BA7C6F7F127BDDEC9B3"
+    }
+  ]
+}
