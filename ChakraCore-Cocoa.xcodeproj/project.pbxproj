@@ -7,13 +7,243 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C34077A1EADB9F9009588A6 /* libChakraCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3407751EADB997009588A6 /* libChakraCore.dylib */; };
+		9C34077D1EADBA24009588A6 /* ChakraCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C34077C1EADBA24009588A6 /* ChakraCore.h */; };
 		9CD285951EADB8CA00A8A524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD285941EADB8CA00A8A524 /* AppDelegate.swift */; };
 		9CD285971EADB8CA00A8A524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD285961EADB8CA00A8A524 /* ViewController.swift */; };
 		9CD285991EADB8CA00A8A524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD285981EADB8CA00A8A524 /* Assets.xcassets */; };
 		9CD2859C1EADB8CA00A8A524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2859A1EADB8CA00A8A524 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9C34073C1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A262FBCEF9D6403595219FF5;
+			remoteInfo = Chakra.Pal;
+		};
+		9C34073E1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 11A0CB29302F41A0B9F92BF2;
+			remoteInfo = Chakra.Pal.Singular;
+		};
+		9C3407401EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A3D8DFD380844B98CD4A57E;
+			remoteInfo = ChakraCoreStatic;
+		};
+		9C3407421EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB72BFFFDCC94C65A761BD47;
+			remoteInfo = Chakra.Backend;
+		};
+		9C3407441EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 520E04EA45BB4412B80B0E87;
+			remoteInfo = Chakra.Common.Codex;
+		};
+		9C3407461EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3BF17DF10DBB464E9E49465B;
+			remoteInfo = Chakra.Common.Codex.Singular;
+		};
+		9C3407481EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3A7048783364E88A0D2E1FA;
+			remoteInfo = Chakra.Common.Common;
+		};
+		9C34074A1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70E38531A4CC4D489B48F31C;
+			remoteInfo = Chakra.Common.Core;
+		};
+		9C34074C1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1028576D8DF44240B5A2627E;
+			remoteInfo = Chakra.Common.DataStructures;
+		};
+		9C34074E1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8126AAB636E34246A1545400;
+			remoteInfo = Chakra.Common.Exceptions;
+		};
+		9C3407501EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C2A542E7A60A4365BE0C2055;
+			remoteInfo = Chakra.Common.Memory;
+		};
+		9C3407521EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19507F813F554F3B8D1462D9;
+			remoteInfo = Chakra.Common.Util;
+		};
+		9C3407541EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5B53887AF9B4C0AAE72BAB9;
+			remoteInfo = Chakra.Parser;
+		};
+		9C3407561EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88285A0F4F414B8CBD7C93D6;
+			remoteInfo = Chakra.Runtime.Base;
+		};
+		9C3407581EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0358A66B73DE4935A8CFBB04;
+			remoteInfo = Chakra.Runtime.PlatformAgnostic;
+		};
+		9C34075A1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 587B662FBDDB436389D65800;
+			remoteInfo = Chakra.Runtime.PlatformAgnostic.Singular;
+		};
+		9C34075C1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B61ED66D842D477CBF73543F;
+			remoteInfo = Chakra.Runtime.ByteCode;
+		};
+		9C34075E1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B85EF2641F148FBB20EFAB4;
+			remoteInfo = Chakra.Runtime.Debug;
+		};
+		9C3407601EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D205A762D52C44DA8D200CD5;
+			remoteInfo = Chakra.Runtime.Language;
+		};
+		9C3407621EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A091555F85D4C0FB49450D9;
+			remoteInfo = Chakra.Runtime.Library;
+		};
+		9C3407641EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 043B1AAA94D94A16AE7BABB2;
+			remoteInfo = Chakra.Runtime.Math;
+		};
+		9C3407661EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E6D351837B34FF6A3DF6DDA;
+			remoteInfo = Chakra.Runtime.Types;
+		};
+		9C3407681EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 329B38D711474CA2957A8DE9;
+			remoteInfo = Chakra.Jsrt;
+		};
+		9C34076A1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F749E0DE58AD476DA1BF8BE0;
+			remoteInfo = Chakra.Jsrt.Core;
+		};
+		9C34076C1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3AC9B21989A745C0B5A1768E;
+			remoteInfo = Chakra.WasmReader;
+		};
+		9C34076E1EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF955546A00748FCA9AE6222;
+			remoteInfo = libwabt;
+		};
+		9C3407701EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 513973E7B07A4BD79F65A989;
+			remoteInfo = GCStress;
+		};
+		9C3407721EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2F93828D8F8645489E8C1D9E;
+			remoteInfo = ch;
+		};
+		9C3407741EADB997009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0694DC4141A44AD5A8758E60;
+			remoteInfo = ChakraCore;
+		};
+		9C3407781EADB9F3009588A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C459011BFCA479F8BC72BCE;
+			remoteInfo = ChakraCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C34077B1EADBA0E009588A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				9C34077D1EADBA24009588A6 /* ChakraCore.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CHAKRACORE.xcodeproj; path = ChakraCore/out/Release/CHAKRACORE.xcodeproj; sourceTree = "<group>"; };
+		9C34077C1EADBA24009588A6 /* ChakraCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChakraCore.h; path = ChakraCore/lib/Jsrt/ChakraCore.h; sourceTree = "<group>"; };
 		9CD285911EADB8CA00A8A524 /* ChakraCore-Cocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChakraCore-Cocoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD285941EADB8CA00A8A524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD285961EADB8CA00A8A524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,16 +257,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C34077A1EADB9F9009588A6 /* libChakraCore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C34071A1EADB997009588A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C34073D1EADB997009588A6 /* libChakra.Pal.a */,
+				9C34073F1EADB997009588A6 /* libChakra.Pal.Singular.a */,
+				9C3407411EADB997009588A6 /* libChakraCoreStatic.a */,
+				9C3407431EADB997009588A6 /* libChakra.Backend.a */,
+				9C3407451EADB997009588A6 /* libChakra.Common.Codex.a */,
+				9C3407471EADB997009588A6 /* libChakra.Common.Codex.Singular.a */,
+				9C3407491EADB997009588A6 /* libChakra.Common.Common.a */,
+				9C34074B1EADB997009588A6 /* libChakra.Common.Core.a */,
+				9C34074D1EADB997009588A6 /* libChakra.Common.DataStructures.a */,
+				9C34074F1EADB997009588A6 /* libChakra.Common.Exceptions.a */,
+				9C3407511EADB997009588A6 /* libChakra.Common.Memory.a */,
+				9C3407531EADB997009588A6 /* libChakra.Common.Util.a */,
+				9C3407551EADB997009588A6 /* libChakra.Parser.a */,
+				9C3407571EADB997009588A6 /* libChakra.Runtime.Base.a */,
+				9C3407591EADB997009588A6 /* libChakra.Runtime.PlatformAgnostic.a */,
+				9C34075B1EADB997009588A6 /* libChakra.Runtime.PlatformAgnostic.Singular.a */,
+				9C34075D1EADB997009588A6 /* libChakra.Runtime.ByteCode.a */,
+				9C34075F1EADB997009588A6 /* libChakra.Runtime.Debug.a */,
+				9C3407611EADB997009588A6 /* libChakra.Runtime.Language.a */,
+				9C3407631EADB997009588A6 /* libChakra.Runtime.Library.a */,
+				9C3407651EADB997009588A6 /* libChakra.Runtime.Math.a */,
+				9C3407671EADB997009588A6 /* libChakra.Runtime.Types.a */,
+				9C3407691EADB997009588A6 /* libChakra.Jsrt.a */,
+				9C34076B1EADB997009588A6 /* libChakra.Jsrt.Core.a */,
+				9C34076D1EADB997009588A6 /* libChakra.WasmReader.a */,
+				9C34076F1EADB997009588A6 /* liblibwabt.a */,
+				9C3407711EADB997009588A6 /* GCStress */,
+				9C3407731EADB997009588A6 /* ch */,
+				9C3407751EADB997009588A6 /* libChakraCore.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3407771EADB9A8009588A6 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				9C34077C1EADBA24009588A6 /* ChakraCore.h */,
+				9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		9C34077E1EADBA2F009588A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2859D1EADB8CA00A8A524 /* Info.plist */,
+				9CD2859A1EADB8CA00A8A524 /* Main.storyboard */,
+				9CD285981EADB8CA00A8A524 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9CD285881EADB8CA00A8A524 = {
 			isa = PBXGroup;
 			children = (
 				9CD285931EADB8CA00A8A524 /* ChakraCore-Cocoa */,
+				9C3407771EADB9A8009588A6 /* Dependencies */,
 				9CD285921EADB8CA00A8A524 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,9 +341,7 @@
 			children = (
 				9CD285941EADB8CA00A8A524 /* AppDelegate.swift */,
 				9CD285961EADB8CA00A8A524 /* ViewController.swift */,
-				9CD285981EADB8CA00A8A524 /* Assets.xcassets */,
-				9CD2859A1EADB8CA00A8A524 /* Main.storyboard */,
-				9CD2859D1EADB8CA00A8A524 /* Info.plist */,
+				9C34077E1EADBA2F009588A6 /* Supporting Files */,
 			);
 			path = "ChakraCore-Cocoa";
 			sourceTree = "<group>";
@@ -70,11 +355,13 @@
 			buildPhases = (
 				9CD2858D1EADB8CA00A8A524 /* Sources */,
 				9CD2858E1EADB8CA00A8A524 /* Frameworks */,
+				9C34077B1EADBA0E009588A6 /* CopyFiles */,
 				9CD2858F1EADB8CA00A8A524 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9C3407791EADB9F3009588A6 /* PBXTargetDependency */,
 			);
 			name = "ChakraCore-Cocoa";
 			productName = "ChakraCore-Cocoa";
@@ -108,12 +395,224 @@
 			mainGroup = 9CD285881EADB8CA00A8A524;
 			productRefGroup = 9CD285921EADB8CA00A8A524 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9C34071A1EADB997009588A6 /* Products */;
+					ProjectRef = 9C3407191EADB997009588A6 /* CHAKRACORE.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9CD285901EADB8CA00A8A524 /* ChakraCore-Cocoa */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9C34073D1EADB997009588A6 /* libChakra.Pal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Pal.a;
+			remoteRef = 9C34073C1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34073F1EADB997009588A6 /* libChakra.Pal.Singular.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Pal.Singular.a;
+			remoteRef = 9C34073E1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407411EADB997009588A6 /* libChakraCoreStatic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakraCoreStatic.a;
+			remoteRef = 9C3407401EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407431EADB997009588A6 /* libChakra.Backend.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Backend.a;
+			remoteRef = 9C3407421EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407451EADB997009588A6 /* libChakra.Common.Codex.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.Codex.a;
+			remoteRef = 9C3407441EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407471EADB997009588A6 /* libChakra.Common.Codex.Singular.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.Codex.Singular.a;
+			remoteRef = 9C3407461EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407491EADB997009588A6 /* libChakra.Common.Common.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.Common.a;
+			remoteRef = 9C3407481EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34074B1EADB997009588A6 /* libChakra.Common.Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.Core.a;
+			remoteRef = 9C34074A1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34074D1EADB997009588A6 /* libChakra.Common.DataStructures.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.DataStructures.a;
+			remoteRef = 9C34074C1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34074F1EADB997009588A6 /* libChakra.Common.Exceptions.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.Exceptions.a;
+			remoteRef = 9C34074E1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407511EADB997009588A6 /* libChakra.Common.Memory.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.Memory.a;
+			remoteRef = 9C3407501EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407531EADB997009588A6 /* libChakra.Common.Util.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Common.Util.a;
+			remoteRef = 9C3407521EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407551EADB997009588A6 /* libChakra.Parser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Parser.a;
+			remoteRef = 9C3407541EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407571EADB997009588A6 /* libChakra.Runtime.Base.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.Base.a;
+			remoteRef = 9C3407561EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407591EADB997009588A6 /* libChakra.Runtime.PlatformAgnostic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.PlatformAgnostic.a;
+			remoteRef = 9C3407581EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34075B1EADB997009588A6 /* libChakra.Runtime.PlatformAgnostic.Singular.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.PlatformAgnostic.Singular.a;
+			remoteRef = 9C34075A1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34075D1EADB997009588A6 /* libChakra.Runtime.ByteCode.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.ByteCode.a;
+			remoteRef = 9C34075C1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34075F1EADB997009588A6 /* libChakra.Runtime.Debug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.Debug.a;
+			remoteRef = 9C34075E1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407611EADB997009588A6 /* libChakra.Runtime.Language.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.Language.a;
+			remoteRef = 9C3407601EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407631EADB997009588A6 /* libChakra.Runtime.Library.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.Library.a;
+			remoteRef = 9C3407621EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407651EADB997009588A6 /* libChakra.Runtime.Math.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.Math.a;
+			remoteRef = 9C3407641EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407671EADB997009588A6 /* libChakra.Runtime.Types.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Runtime.Types.a;
+			remoteRef = 9C3407661EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407691EADB997009588A6 /* libChakra.Jsrt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Jsrt.a;
+			remoteRef = 9C3407681EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34076B1EADB997009588A6 /* libChakra.Jsrt.Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.Jsrt.Core.a;
+			remoteRef = 9C34076A1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34076D1EADB997009588A6 /* libChakra.WasmReader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChakra.WasmReader.a;
+			remoteRef = 9C34076C1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C34076F1EADB997009588A6 /* liblibwabt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibwabt.a;
+			remoteRef = 9C34076E1EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407711EADB997009588A6 /* GCStress */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = GCStress;
+			remoteRef = 9C3407701EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407731EADB997009588A6 /* ch */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ch;
+			remoteRef = 9C3407721EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9C3407751EADB997009588A6 /* libChakraCore.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libChakraCore.dylib;
+			remoteRef = 9C3407741EADB997009588A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9CD2858F1EADB8CA00A8A524 /* Resources */ = {
@@ -138,6 +637,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C3407791EADB9F3009588A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChakraCore;
+			targetProxy = 9C3407781EADB9F3009588A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9CD2859A1EADB8CA00A8A524 /* Main.storyboard */ = {
@@ -288,6 +795,7 @@
 				9CD285A21EADB8CA00A8A524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
